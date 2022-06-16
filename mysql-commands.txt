@@ -1,0 +1,4 @@
+CREATE USER 'vishal'@'%' IDENTIFIED BY 'vishalvyas';
+GRANT ALL ON foo.* TO 'vishal'@'%';
+FLUSH PRIVILEGES;
+SHOW GRANTS FOR 'vishal'@'%'
